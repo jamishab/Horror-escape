@@ -37,6 +37,7 @@ def investigate_machine():
     else: 
         print("The screen distorts, the game rejecting your hesitation...")
         investigate_machine()
+    check_puzzle_trigger()
 
 def enter_hallway():
     print("You push open the door and step into a dimly lit hallway. The air is thick with dust.")
@@ -59,10 +60,27 @@ def enter_hallway():
     else:
         print("The hallway seems to stretch endlessly when you hesitate...")
         enter_hallway()
+    check_puzzle_trigger()
 
 def check_inventory():
     print("---INVENTORY---")
     print("Clues:", inventory['clues'])
     print("Items:", inventory['items'])
+
+def check_puzzle_trigger():
+    if len(inventory['clues']) >= 2:
+        word_scramble_puzzle()
+
+def word_scramble_puzzle():
+    print("As the clues settle in your mind, you hear the arcade hum to life, its screen flashing violently.")
+    print("Letters begin to swirl before your eyes, rearranging into a scrambled mess:")
+    scrambled_word = "ZRAETH"
+    print(f"SCRAMBLED WORD: {scrambled_word}")
+    guess = input("Unscramble the word: ").strip().lower()
+    if guess == "zareth":
+        print("The arcade machine falls silent, as if acknowledging your success. The darkness seems to shift...")
+    else:
+        print("The letters twist violently, mocking your mistake. Try again...")
+        word_scramble_puzzle()
 
 start_game()
