@@ -8,7 +8,7 @@ You find yourself trapped inside an eerie, forgotten arcade. Neon lights flicker
 Choose Your Path: Investigate the haunted arcade machine or venture into the dark hallway.
 Collect Clues & Items: Uncover hidden notes, ghostly tokens, and cryptic messages.
 Solve Puzzles: Unscramble names long forgotten to unlock new parts of the story.
-Multiple Endings: Your choices shape the ending — will you escape, or succumb to the arcade's grip?
+Multiple Endings: Your choices shape the ending; will you escape, or succumb to the arcade's grip?
 
 🔧 Inventory System
 Track your collected clues and items by using the in-game inventory system. Items may unlock new paths or protect you from the lurking horrors.
