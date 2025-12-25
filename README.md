@@ -1,5 +1,5 @@
 Horror Escape: The Abandoned Arcade
-Welcome, brave soul, to Horror Escape: The Abandoned Arcade — a chilling text-based adventure where choices matter, and the darkness is always watching.
+Welcome, brave soul, to Horror Escape: The Abandoned Arcade, a chilling text-based adventure where choices matter, and the darkness is always watching.
 
 🔮 About the Game
 You find yourself trapped inside an eerie, forgotten arcade. Neon lights flicker, shadows shift, and whispers echo through the halls. Each path you choose unlocks different horrors, puzzles, and secrets. Will you uncover the truth behind the cursed machines, or will you become another lost soul?
